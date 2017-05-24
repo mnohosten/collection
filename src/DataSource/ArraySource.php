@@ -13,8 +13,8 @@ class ArraySource extends \ArrayIterator implements DataSource
 
     public function valid()
     {
-        if(!parent::valid()) { return false; }
-        dump($this->current());die;
+        if(!parent::valid()) return false;
+        return true;
     }
 
 
