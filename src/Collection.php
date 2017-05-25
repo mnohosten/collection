@@ -51,4 +51,9 @@ class Collection
         return $this->dataSource->count();
     }
 
+    public function slice($size, $offset=0)
+    {
+        
+    }
+
 }
